@@ -4,4 +4,9 @@
       Scores based on proximity of the last trajectory point to the desired tool goal pose
     </description>
   </class>
+  <class name="stomp_moveit/ToolPathPose" type="stomp_moveit::cost_functions::ToolPathPose" base_class_type="stomp_moveit::cost_functions::StompCostFunction">
+    <description>
+      Scores based on proximity of the all trajectory point to the desired tool path pose
+    </description>
+  </class>
 </library>
